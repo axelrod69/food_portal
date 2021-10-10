@@ -1,0 +1,15 @@
+.flexImages {
+    display: flex;
+    flex-wrap: wrap;
+    width: 99%;
+    height: auto;
+    margin: 5px;
+}
+
+.flexImages > div {
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    margin : 20px
+}

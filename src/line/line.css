@@ -1,0 +1,28 @@
+.line {
+    display: flex;
+    height: 50px;
+    width: 99%;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.text {
+    height: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.lines {
+    flex-grow: 2;
+    height: 10px;
+    background-image: linear-gradient(to right, rgba(255, 0, 227, 0.65), rgba(231, 238, 58, 1));
+}
+
+.lines_2 {
+    flex-grow: 2;
+    height: 10px;
+    background-image: linear-gradient(to right, rgba(231, 238, 58, 1), rgba(155, 0, 255, 1));
+}
